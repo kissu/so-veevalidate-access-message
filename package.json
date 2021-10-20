@@ -1,0 +1,47 @@
+{
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "build": "vue-cli-service build"
+  },
+  "private": true,
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "name": "codesandbox",
+  "eslintConfig": {
+    "rules": {},
+    "root": true,
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "env": {
+      "node": true
+    }
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.5.21",
+    "eslint-plugin-vue": "^5.0.0",
+    "eslint": "^5.8.0",
+    "babel-eslint": "^10.0.1",
+    "@vue/cli-service": "3.6.0",
+    "@vue/cli-plugin-eslint": "3.6.0",
+    "@vue/cli-plugin-babel": "3.6.0"
+  },
+  "dependencies": {
+    "vue": "2.6.10",
+    "vee-validate": "^3.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
